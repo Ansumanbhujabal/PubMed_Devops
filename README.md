@@ -1,7 +1,7 @@
 
 ---
 
-# PubMed Search GUI Module
+# PubMed Search GUI  and CLI Module
 
 This project provides an API for searching and analyzing PubMed articles, using FastAPI for the backend and Streamlit for the frontend. It fetches PubMed data based on user queries, processes the results, and allows users to download the filtered data in CSV format.
 
@@ -17,6 +17,12 @@ This project provides an API for searching and analyzing PubMed articles, using 
 - **Streamlit**: For creating the frontend UI.
 - **BioPython**: For interacting with the NCBI Entrez API.
 - **pandas**: For managing and processing the data.
+## Example Output 
+# CLI
+![Screenshot from 2025-01-10 05-40-01](https://github.com/user-attachments/assets/94a58aa9-b459-481d-b178-5b334ed445f5)
+# GUI
+![Screenshot from 2025-01-10 05-31-19](https://github.com/user-attachments/assets/d1f31c4a-ab0d-4827-843d-7e0e4e79a4f8)
+
 
 ## Setup Instructions
 
@@ -69,6 +75,8 @@ This query will return PubMed articles related to "Children and Epilepsy" and fi
 - `ui.py`: Streamlit frontend code.
 - `app.py`: FastAPI backend code.
 - `pyproject.toml`: The Poetry configuration file for managing dependencies.
+
+
 
 ## Dependencies
 The project requires the following Python packages:
