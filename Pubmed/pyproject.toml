@@ -1,0 +1,32 @@
+[project]
+name = "Pubmed"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Ansuman SS Bhujabala"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "argparse (>=1.4.0,<2.0.0)",
+    "logging (>=0.4.9.6,<0.5.0.0)",
+    "bio (>=1.7.1,<2.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "tabulate (>=0.9.0,<0.10.0)",
+    "colorama (>=0.4.6,<0.5.0)",
+    "streamlit (>=1.41.1,<2.0.0)",
+    "requests (>=2.32.3,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+[tool.poetry.scripts]
+get-papers-list = "scripts.run:main"
+
+[tool.poetry]
+packages = [
+    { include = "scripts" }
+]
