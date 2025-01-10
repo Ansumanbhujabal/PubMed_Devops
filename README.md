@@ -84,7 +84,9 @@ The project requires the following Python packages:
 
 ## License
 This project is licensed under the MIT License.
-
+## Docs
+https://docs.google.com/document/d/1ieJvURbmxlTRyXHsCCEMCUGauku0kFwniOCrXv3daFw/edit?usp=sharing
+https://docs.google.com/document/d/1QDn6nmw46fr7FCWWJNJOn3UEE0TB9xgVL0vtzSKZdfs/edit?usp=sharing
 ## Author
 - **Ansuman SS Bhujabala**
 
